@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-export const API_URL = 'http://localhost:5001/api';
+export const API_URL = 'https://scholarship-tracker-ngr6.onrender.com/api';
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
