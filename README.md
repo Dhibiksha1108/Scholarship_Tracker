@@ -1,26 +1,47 @@
-# Scholarship Tracker
+# 🎓 Scholarship Tracker
 
-A MERN Stack web application that helps students discover and save scholarship opportunities while allowing administrators to manage scholarship listings efficiently.
+A full-stack MERN web application that helps students discover and save scholarship opportunities while allowing administrators to manage scholarship listings through a secure dashboard.
 
-## Features
+---
 
-### Admin
-- Admin Login
-- Add Scholarships
-- Edit Scholarships
+## 🌐 Live Demo
+
+**Frontend:**  
+https://scholarship-tracker-seven.vercel.app
+
+**Backend API:**  
+https://scholarship-tracker-ngr6.onrender.com
+
+---
+
+## 📌 Project Overview
+
+Scholarship Tracker is a web-based application developed using the MERN Stack (MongoDB, Express.js, React.js, and Node.js). The application provides a centralized platform where administrators can add, update, and manage scholarship information, while students can search, explore, and save scholarships based on their preferences.
+
+---
+
+## ✨ Features
+
+### 👨‍💼 Admin Module
+- Secure Admin Login
+- Dashboard Overview
+- Add New Scholarships
+- Edit Scholarship Details
 - Delete Scholarships
 - Manage Scholarship Listings
 - View Registered Students
 
-### Student
+### 👨‍🎓 Student Module
 - Student Registration & Login
-- Browse Scholarships
-- Search Scholarships
-- Filter Scholarships
-- Save to Wishlist
+- Browse Available Scholarships
+- Search & Filter Scholarships
+- Save Scholarships to Wishlist
+- View Scholarship Details
 - Visit Official Scholarship Website
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 - React.js
@@ -36,36 +57,52 @@ A MERN Stack web application that helps students discover and save scholarship o
 ### Database
 - MongoDB Atlas
 
-## Project Structure
+### Deployment
+- Frontend: Vercel
+- Backend: Render
 
-```
+### Development Tools
+- Visual Studio Code
+- Git & GitHub
+- MongoDB Compass
+- Postman
+
+---
+
+## 📂 Project Structure
+
+```text
 Scholarship_Tracker
 │
 ├── backend
 │   ├── config
 │   ├── controllers
+│   ├── middleware
 │   ├── models
 │   ├── routes
-│   ├── middleware
-│   └── server.js
+│   ├── server.js
+│   └── package.json
 │
 ├── frontend
-│   ├── src
 │   ├── public
-│   └── package.json
+│   ├── src
+│   ├── package.json
+│   └── vite.config.js
 │
 └── README.md
 ```
 
-## Installation
+---
 
-### Clone Repository
+## 🚀 Installation
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Dhibiksha1108/Scholarship_Tracker.git
 ```
 
-### Backend
+### Backend Setup
 
 ```bash
 cd backend
@@ -73,7 +110,7 @@ npm install
 npm start
 ```
 
-### Frontend
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -81,26 +118,46 @@ npm install
 npm run dev
 ```
 
-## Screenshots
+---
 
-- Home Page
-- Admin Dashboard
-- Add Scholarship
-- Manage Scholarships
-- Student Dashboard
-- Explore Scholarships
-- Wishlist
+## 📷 Screenshots
 
-## Future Enhancements
+Add screenshots here:
+
+- 🏠 Home Page
+- 🔐 Login Page
+- 👨‍💼 Admin Dashboard
+- ➕ Add Scholarship
+- 📋 Manage Scholarships
+- 👨‍🎓 Student Dashboard
+- 🔍 Explore Scholarships
+- ❤️ Wishlist
+
+---
+
+## 🔮 Future Enhancements
 
 - Email Notifications
 - Scholarship Deadline Reminders
-- AI-based Scholarship Recommendations
+- AI-Based Scholarship Recommendations
 - Mobile Application
+- Advanced Analytics Dashboard
 - OTP Authentication
 
-## Author
+---
+
+## 👩‍💻 Author
 
 **Dhibiksha V S**
 
-MCA Student
+Master of Computer Applications (MCA)
+
+Sri Shakthi Institute of Engineering and Technology
+
+GitHub: https://github.com/Dhibiksha1108
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
